@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <style> 
         body{
             background:#ecf0f1;
@@ -17,7 +21,15 @@
             font-family: 'Prompt', sans-serif;
             font-weight: bold;
         }
+        h2{
+            font-size: 2.5em;
+            font-family: 'Prompt', sans-serif;
+            font-weight: bold;
+        }
         h5{
+            font-family: 'Prompt', sans-serif;
+        }
+        h6{
             font-family: 'Prompt', sans-serif;
         }
         h4{
@@ -40,18 +52,20 @@
 </head>
 <body>
     
-    <div class="container mt-5 mb-5">
+    <div class="container mt-3 mt-md-5  mb-5 ">
         <div class="row">
             <div class="col">
-                <div class="card py-3 bg-warning">
+                <div class="card shadow py-3 bg-warning animate__animated animate__fadeInUp">
                     <div class="row g-0">
                       <div class="col-md-3 text-center">
                         <img src="perfil2.gif" alt="..." width="200px">
                       </div>
                       <div class="col-md-9 d-flex align-items-center">
                         <div class="card-body">
-                          <h1 class="">Ángel Isidro López Cadena</h1>
-                          <h5 class="">ESTUDIANTE DE ING. EN CIENCIAS DE LA COMPUTACIÓN </h5>
+                          <h1 class="d-none d-md-block">Ángel Isidro López Cadena</h1>
+                          <h2 class="d-md-none">Ángel Isidro López Cadena</h2>
+                          <h5 class="d-none d-md-block">ESTUDIANTE DE ING. EN CIENCIAS DE LA COMPUTACIÓN </h5>
+                          <h6 class="d-md-none">ESTUDIANTE DE ING. EN CIENCIAS DE LA COMPUTACIÓN </h6>
                         </div>
                       </div>
                     </div>
@@ -60,7 +74,7 @@
         </div>
         <div class="row mt-4">
             <div class="col-md-4">
-                <div class="card h-100 bg-dark">
+                <div class="card shadow h-100 bg-dark animate__animated animate__fadeInUp">
                     <div class="card-body">
                         <h4 class="card-title text-warning">CONTACTO</h4>
                         <p class="card-text text-white">
@@ -74,8 +88,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="card h-100">
+            <div class="col-md-8 mt-4 mt-md-0">
+                <div class="card shadow h-100 animate__animated animate__fadeInUp">
                     <div class="card-body">
                         <h4 class="card-title">PERFIL</h4>
                         <div class="p-2">
@@ -94,7 +108,7 @@
 
         <div class="row mt-4">
             <div class="col-md-4">
-                <div class="card h-100 bg-dark">
+                <div class="card shadow h-100 bg-dark animate__animated animate__fadeInUp">
                     <div class="card-body">
                         <h4 class="card-title text-warning">HABILIDADES</h4>
                         <p class="card-text text-white">
@@ -114,20 +128,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="card h-100">
+            <div class="col-md-8 mt-4 mt-md-0">
+                <div class="card shadow h-100 animate__animated animate__fadeInUp">
                     <div class="card-body">
                         <h4 class="card-title">EXPERIENCIA LABORAL</h4>
-                        <div class="p-2 pb-0 d-flex justify-content-between">
+                        <div class="p-2 pb-0 d-md-flex justify-content-between mb-3 mb-md-0">
                             <div>
                                 <h5 style="font-weight: bold;" class="m-0">Desarrollador front-end y diseñador gráfico</h5>
                                 <p><small class="text-muted">Estudio 404 | 2019 - Actualmente</small></p>
                             </div>
-                            <div>
+                            <div class="">
                                 <img src="transparente.png" alt="" width="150px">
                             </div>
                         </div>
-                        <div class="px-2">
+                        <div class="px-2 mb-3 mb-md-0">
                             <p>En agosto 2020 me encargo del diseño y programación de la aplicación móvil del proyecto de menús digitales “DIME” <a href="https://www.di-me.com.mx" target="_blank" rel="noopener noreferrer">(di-me.com.mx)</a> con el framework Ionic.</p>
                             <br>
                             <div class="text-center">
@@ -141,20 +155,20 @@
 
         <div class="row mt-4">
             <div class="col-md-4">
-                <div class="card h-100 bg-dark">
+                <div class="card shadow h-100 bg-dark animate__animated animate__fadeInUp">
                     <div class="card-body">
                         <h4 class="card-title text-warning">RECONOCIMIENTO</h4>
                         <p class="card-text text-white">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-geo-alt-fill text-warning"></i> Primer lugar FEPRO 2019</li>
+                                <li style="font-weight: bold;" class="list-group-item bg-dark text-white"><i class="bi bi-trophy-fill text-warning"></i> Primer lugar FEPRO 2019</li>
                                 <p class="text-white px-3">Junto con un grupo de compañeros de mi facultad presentamos “IDEA”, una plataforma digital para impulsar proyectos interdisciplinarios dentro de la universidad. Yo me encargué del diseño de marca y del diseño y programación de UX/UI. La plataforma estaba programada con laravel.</p>
                             </ul>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="card h-100">
+            <div class="col-md-8 mt-4 mt-md-0">
+                <div class="card shadow h-100 animate__animated animate__fadeInUp">
                     <div class="card-body">
                         <h4 class="card-title">FORMACIÓN ACADÉMICA</h4>
                         <div class="p-2 pb-0 d-flex justify-content-between">
