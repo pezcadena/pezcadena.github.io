@@ -5,183 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angel Isidro Lopez Cadena</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
     <style> 
         body{
-            background:#ecf0f1;
+            background:#C38890;
+            font-family: 'Poppins', sans-serif;
         } 
         h1{
-            font-size: 3.5em;
-            font-family: 'Prompt', sans-serif;
             font-weight: bold;
+            font-size: 3rem;
         }
-        h2{
-            font-size: 2.5em;
-            font-family: 'Prompt', sans-serif;
-            font-weight: bold;
+        .ppa{
+            width: 25%;
         }
-        h5{
-            font-family: 'Prompt', sans-serif;
+        .pgd{
+                width: 20%;
         }
-        h6{
-            font-family: 'Prompt', sans-serif;
+
+        .centrar{
+           position: relative;
+           height: 100vh;
         }
-        h4{
-            font-family: 'Prompt', sans-serif;
+        .menu-item{
             font-weight: bold;
         }
 
-        p{
-            font-family: 'Prompt', sans-serif;
+        @media (max-width: 600px) {
+
+            .perfil{
+                width: 18rem !important;
+            }
         }
 
         a{
-            font-family: 'Prompt', sans-serif;
+            color: black;
+            cursor: pointer;
+            transition: color .3s;
         }
 
-        li{
-            font-family: 'Prompt', sans-serif;
+        a:hover{
+            color: aliceblue;
         }
     </style>
 </head>
 <body>
     
-    <div class="container mt-3 mt-md-5  mb-5 ">
-        <div class="row">
-            <div class="col">
-                <div class="card shadow py-3 bg-warning animate__animated animate__fadeInUp">
-                    <div class="row g-0">
-                      <div class="col-md-3 text-center">
-                        <img src="perfil2.gif" alt="..." width="200px">
-                      </div>
-                      <div class="col-md-9 d-flex align-items-center">
-                        <div class="card-body">
-                          <h1 class="d-none d-md-block">Ángel Isidro López Cadena</h1>
-                          <h2 class="d-md-none">Ángel Isidro López Cadena</h2>
-                          <h5 class="d-none d-md-block">ESTUDIANTE DE ING. EN CIENCIAS DE LA COMPUTACIÓN </h5>
-                          <h6 class="d-md-none">ESTUDIANTE DE ING. EN CIENCIAS DE LA COMPUTACIÓN </h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+    <img class="pgd" style="position: absolute;" src="recursos/PGD.svg" alt="">
+    <div class="centrar row m-0 p-0 align-items-center">
+        <div class="row align-items-center justify-content-center m-0 p-0">
+            <div class="col-auto px-5 px-sm-0">
+                <h1>Ángel Isidro</h1>
+                <h1 class="mb-3">López Cadena</h1>
+                <h5 style="margin-bottom: 0;">estudiante de</h5>
+                <h4>Ing. en Ciencias de la Computación</h4>
             </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card shadow h-100 bg-dark animate__animated animate__fadeInUp">
-                    <div class="card-body">
-                        <h4 class="card-title text-warning">CONTACTO</h4>
-                        <p class="card-text text-white">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-geo-alt-fill text-warning"></i> Calle Universidad de Veracruz 1638, Col. Universidades. Puebla, MX</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-envelope-fill text-warning"></i> angellopezcadena@gmail.com</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-telephone-fill text-warning"></i> Cel. 22-25-60-72-60</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
+            <div class="col-md-3 col-auto m-0 p-0">
+                <img class="img-fluid perfil" src="perfil2.gif" alt="">
             </div>
-            <div class="col-md-8 mt-4 mt-md-0">
-                <div class="card shadow h-100 animate__animated animate__fadeInUp">
-                    <div class="card-body">
-                        <h4 class="card-title">PERFIL</h4>
-                        <div class="p-2">
-                            <p class="card-text">Futuro Ingeniero en Ciencias de la Computación, aficionado del diseño, e ilustrador apasionado. Me especializo como desarrollador Web, móvil y diseñador de experiencia e interfaz de usuario (UX/UI). Responsable, critico y profesional en todo momento.</p>
-                            <br>
-                            <p>
-                                Frameworks: Angular, Ionic
-                            </p>
-                            <br>
-                            <p> Lenguajes de programación: C, Java, Python, JavaScript</p>
-                        </div>
+            <div class="row p-0">
+                <a class="row align-items-center mb-3 animate__animated animate__slideInLeft animate__faster">
+                    <div class="col-auto ps-0">
+                        <img class="img-fluid" src="recursos/bloqueazul.svg" alt="">
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card shadow h-100 bg-dark animate__animated animate__fadeInUp">
-                    <div class="card-body">
-                        <h4 class="card-title text-warning">HABILIDADES</h4>
-                        <p class="card-text text-white">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-5-fill text-warning"></i> Diseño gráfico</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-4-fill text-warning"></i> Diseño de UX / UI</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-6-fill text-warning"></i> Diseño WEB</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-5-fill text-warning"></i> Facilidad de aprendizaje</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-4-fill text-warning"></i> Manejo de paquetería Adobe</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-2-fill text-warning"></i> Motion Graphics</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-5-fill text-warning"></i> Ilustración</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-3-fill text-warning"></i> Inglés</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-5-fill text-warning"></i> Puntualidad</li>
-                                <li class="list-group-item bg-dark text-white"><i class="bi bi-dice-3-fill text-warning"></i> Planeación</li>
-                            </ul>
-                        </p>
+                    <div class="col-auto p-0">
+                        <h2 class="menu-item m-0">CV</h2>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-8 mt-4 mt-md-0">
-                <div class="card shadow h-100 animate__animated animate__fadeInUp">
-                    <div class="card-body">
-                        <h4 class="card-title">EXPERIENCIA LABORAL</h4>
-                        <div class="p-2 pb-0 d-md-flex justify-content-between mb-3 mb-md-0">
-                            <div>
-                                <h5 style="font-weight: bold;" class="m-0">Desarrollador front-end y diseñador gráfico</h5>
-                                <p><small class="text-muted">Estudio 404 | 2019 - 2020</small></p>
-                            </div>
-                            <div class="">
-                                <img src="transparente.png" alt="" width="150px">
-                            </div>
-                        </div>
-                        <div class="px-2 mb-3 mb-md-0">
-                            <p>En agosto 2019 me encargué del diseño y programación de la aplicación móvil del proyecto de menús digitales “DIME” <a href="https://www.di-me.com.mx" target="_blank" rel="noopener noreferrer">(di-me.com.mx)</a> con el framework Ionic.</p>
-                            <br>
-                            <div class="text-center">
-                                <img src="FondoNegro.svg" alt="" width="250px">
-                            </div>
-                        </div>
+                </a>
+                <a class="row align-items-center mb-3 animate__animated animate__slideInLeft animate__fast">
+                    <div class="col-auto ps-0">
+                        <img class="img-fluid" src="recursos/bloquerojo.svg" alt="">
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card shadow h-100 bg-dark animate__animated animate__fadeInUp">
-                    <div class="card-body">
-                        <h4 class="card-title text-warning">RECONOCIMIENTO</h4>
-                        <p class="card-text text-white">
-                            <ul class="list-group list-group-flush">
-                                <li style="font-weight: bold;" class="list-group-item bg-dark text-white"><i class="bi bi-trophy-fill text-warning"></i> Primer lugar FEPRO 2019</li>
-                                <p class="text-white px-3">Junto con un grupo de compañeros de mi facultad presentamos “IDEA”, una plataforma digital para impulsar proyectos interdisciplinarios dentro de la universidad. Yo me encargué del diseño de marca y del diseño y programación de UX/UI. La plataforma estaba programada con laravel.</p>
-                            </ul>
-                        </p>
+                    <div class="col-auto p-0">
+                        <h2 class="menu-item m-0">MI TRABAJO</h2>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-8 mt-4 mt-md-0">
-                <div class="card shadow h-100 animate__animated animate__fadeInUp">
-                    <div class="card-body">
-                        <h4 class="card-title">FORMACIÓN ACADÉMICA</h4>
-                        <div class="p-2 pb-0 d-flex justify-content-between">
-                            <div>
-                                <h5 style="font-weight: bold;" class="m-0">BENEMÉRITA UNIVERSIDAD AUTÓNOMA DE PUEBLA</h5>
-                                <p><small class="text-muted">Noveno semestre de Ingeniería en Ciencias de la Computación | 2016 - Actualmente</small></p>
-                            </div>
-                        </div>
+                </a>
+                <a class="row align-items-center animate__animated animate__slideInLeft">
+                    <div class="col-auto ps-0">
+                        <img class="img-fluid" src="recursos/bloquemarron.svg" alt="">
                     </div>
-                </div>
+                    <div class="col-auto p-0">
+                        <h2 class="menu-item m-0">CONTACTO</h2>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
-
+    <img style="position: absolute;bottom: 0%;right: 0%;" src="recursos/PPA.svg" alt="" class="ppa">
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>    
